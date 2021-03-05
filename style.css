@@ -33,11 +33,18 @@ main {
 }
 .btn {
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #2f3542;
+    color: #2f3542;
     border-radius: 8px;
     padding: 15px 32px;
     text-align: center;
     font-size: 18px;
+    outline: none;
+}
+.btn:hover{
+    transition: 0.7s;
+    background-color: #2f3542;
+    color: #ffffff;
 }
 .container{
     display: flex;
