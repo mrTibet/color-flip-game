@@ -25,6 +25,9 @@ a {
     padding: 5px;
     text-decoration: none;
 }
+a:visited{
+    color: black;
+}
 main {
     height: 100vh;
     display: flex;
